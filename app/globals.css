@@ -24,3 +24,39 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .neu-navbar {
+    @apply border-b-4 border-black bg-white px-8 py-4 flex items-center justify-between sticky top-0 z-50;
+  }
+
+  .neu-nav-item {
+    @apply px-4 py-1.5 font-bold text-sm transition-all duration-150 cursor-pointer border-2 border-transparent;
+  }
+
+  .neu-nav-item:hover {
+    @apply border-2 border-black bg-[#FFDC58] shadow-[3px_3px_0px_black];
+  }
+
+  .neu-nav-item.active {
+    @apply border-2 border-black bg-[#FFDC58];
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@utility animate-slideDown {
+  animation: slideDown 0.2s ease-out forwards;
+}

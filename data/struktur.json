@@ -1,0 +1,57 @@
+{
+  "Angkatan": 21,
+  "Organisasi": [
+    {
+      "jabatan": "Ketua Kelas",
+      "nama": "Ahmad Fauzi",
+      "foto": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "jabatan": "Wakil Ketua",
+      "nama": "Budi Santoso",
+      "foto": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "jabatan": "Sekretaris",
+      "nama": "Citra Dewi",
+      "foto": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "jabatan": "Bendahara",
+      "nama": "Dina Rahma",
+      "foto": "https://i.pravatar.cc/150?img=4"
+    }
+  ],
+  "anggota": [
+    {
+      "nama": "Eko Prasetyo",
+      "nim": "230101",
+      "foto": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "nama": "Fitri Handayani",
+      "nim": "230102",
+      "foto": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "nama": "Gilang Ramadan",
+      "nim": "230103",
+      "foto": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "nama": "Hana Pertiwi",
+      "nim": "230104",
+      "foto": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "nama": "Irfan Maulana",
+      "nim": "230105",
+      "foto": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "nama": "Jasmine Putri",
+      "nim": "230106",
+      "foto": "https://i.pravatar.cc/150?img=10"
+    }
+  ]
+}
