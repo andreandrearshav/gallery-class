@@ -3,55 +3,90 @@
   "Organisasi": [
     {
       "jabatan": "Ketua Kelas",
-      "nama": "Ahmad Fauzi",
-      "foto": "https://i.pravatar.cc/150?img=1"
+      "nama": "Rangga Dwi Saputra",
+      "foto": "/img/rangga.png"
     },
     {
       "jabatan": "Wakil Ketua",
-      "nama": "Budi Santoso",
-      "foto": "https://i.pravatar.cc/150?img=2"
+      "nama": "Shofiyyah Ismi Labibah",
+      "foto": "/img/shofi.png"
     },
     {
       "jabatan": "Sekretaris",
-      "nama": "Citra Dewi",
+      "nama": "Nurul Fatmawati",
       "foto": "https://i.pravatar.cc/150?img=3"
     },
     {
       "jabatan": "Bendahara",
-      "nama": "Dina Rahma",
+      "nama": "Alliyah Damayanti",
       "foto": "https://i.pravatar.cc/150?img=4"
     }
   ],
   "anggota": [
     {
-      "nama": "Eko Prasetyo",
-      "nim": "230101",
-      "foto": "https://i.pravatar.cc/150?img=5"
+      "nama": "Moch. Sofyan Ramadhan",
+      "nim": "143221001",
+      "foto": "/img/sofyan.png"
     },
     {
-      "nama": "Fitri Handayani",
-      "nim": "230102",
+      "nama": "Virginio Dava Pratama",
+      "nim": "143221004",
       "foto": "https://i.pravatar.cc/150?img=6"
     },
     {
-      "nama": "Gilang Ramadan",
-      "nim": "230103",
-      "foto": "https://i.pravatar.cc/150?img=7"
+      "nama": "Sifaul Qolbi Saputra",
+      "nim": "143221005",
+      "foto": "/img/sifaul.png"
     },
     {
-      "nama": "Hana Pertiwi",
-      "nim": "230104",
+      "nama": "Muhammad Dika Bima Satria",
+      "nim": "143221006",
       "foto": "https://i.pravatar.cc/150?img=8"
     },
     {
-      "nama": "Irfan Maulana",
-      "nim": "230105",
-      "foto": "https://i.pravatar.cc/150?img=9"
+      "nama": "Moh. Alim Nafi' Adiansyah",
+      "nim": "143221007",
+      "foto": "/img/nafi.png"
     },
     {
-      "nama": "Jasmine Putri",
-      "nim": "230106",
+      "nama": "Mohammad Nurun Nafik",
+      "nim": "143221008",
       "foto": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "nama": "Imam Silahudin",
+      "nim": "143221009",
+      "foto": "/img/imam.png"
+    },
+    {
+      "nama": "Siti Alysa Syamsiyah",
+      "nim": "143221016",
+      "foto": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "nama": "Rama Dani Wanda Prasetyo",
+      "nim": "143221025",
+      "foto": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+      "nama": "Achmad Ganesh Probo Riyanto",
+      "nim": "143221026",
+      "foto": "/img/ganes.png"
+    },
+    {
+      "nama": "Moh Ainul Rozi Solichudin",
+      "nim": "143221033",
+      "foto": "/img/rozi.png"
+    },
+    {
+      "nama": "Andre Bagus Syamantha",
+      "nim": "143221039",
+      "foto": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+      "nama": "Moch. Iqbal Firmansyah",
+      "nim": "143221056",
+      "foto": "/img/iqbal.png"
     }
   ]
 }

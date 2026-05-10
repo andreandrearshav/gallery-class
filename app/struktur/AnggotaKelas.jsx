@@ -1,9 +1,12 @@
+"use client";
 import struktur from "@/data/struktur.json";
+import Reveal from "@/app/hooks/useReveal";
 export default function Struktur() {
+  Reveal();
   return (
     <main id="anggota" className="bg-white min-h-screen scroll-mt-10 p-8 py-20">
-      <section className="mb-12">
-        <h1 className="text-5xl flex gap-4 mb-8 items-center md:text-7xl font-black uppercase text-black">
+      <section className="reveal mb-10">
+        <h1 className="reveal-scale text-5xl flex gap-4 mb-8 items-center md:text-7xl font-black uppercase text-black">
           Penghuni
           <span className="border-4 flex w-full rounded-lg border-black"></span>
         </h1>
@@ -11,12 +14,12 @@ export default function Struktur() {
           Angkatan {struktur.Angkatan}
         </p>
       </section>
-      <section className="mb-10">
+      <section className="reveal mb-10">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {struktur.Organisasi.map((a) => (
             <div
               key={a.nama}
-              className="bg-white border-[3px] border-black shadow-[5px_5px_0_#111] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#111] transition-all cursor-pointer overflow-hidden ">
+              className="reveal-scale bg-white border-[3px] border-black shadow-[5px_5px_0_#111] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[7px_7px_0_#111] transition-all cursor-pointer overflow-hidden ">
               <img
                 src={a.foto}
                 className="w-full h-40 object-cover border-b-[3px] border-black"
@@ -31,8 +34,8 @@ export default function Struktur() {
           ))}
         </div>
       </section>
-      <section>
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+      <section className="reveal">
+        <div className="reveal-scale grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
           {struktur.anggota.map((a) => (
             <div
               key={a.nim}
@@ -43,9 +46,9 @@ export default function Struktur() {
                 className="w-16 h-16 rounded-full border-[3px] border-black object-cover mx-auto mb-2"
               />
               <p className="text-xs font-black text-black mb-1">{a.nama}</p>
-              <span className="text-[11px] font-bold text-gray-500 font-mono">
+              {/* <span className="text-[11px] font-bold text-gray-500 font-mono">
                 {a.nim}
-              </span>
+              </span> */}
             </div>
           ))}
         </div>

@@ -1,20 +1,22 @@
 // "use client";
+import Reveal from "@/app/hooks/useReveal";
 import { inter, syne } from "@/app/layout";
 // import { useEffect, useState } from "react";
 export default function Home() {
+  // Reveal();
   return (
     <main id="home" className="overflow-x-hidden scroll-mt-24">
-      <section className="border-4 border-black min-h-screen px-8 py-20 bg-[#FFDC58]">
-        <div className="md:flex md:justify-between items-center px-6">
+      <section className=" border-4 border-black min-h-screen px-8 py-20 bg-[#FFDC58]">
+        <div className="reveal md:flex md:justify-between items-center px-6">
           <div className="order-2 md:order-1 ">
-            <p className="font-black uppercase tracking-widest mb-3">
+            <p className="reveal-scale font-black uppercase tracking-widest mb-3">
               <span
                 className={`${syne.className} border-2 p-2 border-black bg-[#f317a6] shadow-[3px_3px_0px_black]`}>
                 t.informatik
               </span>
             </p>
             <h1
-              className={`${syne.className} text-4xl md:text-7xl text-black font-black uppercase leading-tight mb-4`}>
+              className={`${syne.className} reveal-scale text-4xl md:text-7xl text-black font-black uppercase leading-tight mb-4`}>
               Gallery
               <br />
               Kelas.
@@ -25,7 +27,7 @@ export default function Home() {
               dikenang. Pilih tahun untuk menjelajahi kembali perjalanan itu.
             </p>
           </div>
-          <div className="border-4 overflow-x-hidden md:animate-[bounce_2s_infinite]  order-1 md:order-2 border-black bg-white p-8 shadow-[8px_8px_0px_#FFA552] rounded-2xl text-center rotate-3">
+          <div className="reveal-scale border-4 overflow-x-hidden md:animate-[bounce_2s_infinite]  order-1 md:order-2 border-black bg-white p-8 shadow-[8px_8px_0px_#FFA552] rounded-2xl text-center rotate-3">
             <p className="text-8xl">📸</p>
             <p
               className={`${syne.className} font-black text-xl mt-2 text-[#080200] uppercase`}>
