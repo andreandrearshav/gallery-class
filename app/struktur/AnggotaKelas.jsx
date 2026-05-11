@@ -43,7 +43,7 @@ export default function Struktur() {
               <img
                 src={a.foto}
                 alt={a.nama}
-                className="w-16 h-16 rounded-full border-[3px] border-black object-cover mx-auto mb-2"
+                className="w-21 h-21 rounded-full border-[3px] border-black object-cover mx-auto mb-2"
               />
               <p className="text-xs font-black text-black mb-1">{a.nama}</p>
               {/* <span className="text-[11px] font-bold text-gray-500 font-mono">

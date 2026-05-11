@@ -26,7 +26,7 @@ export default function Gallery({ TahunList, fotoMap }) {
     setPage(1);
   };
   const totalPage = Math.ceil(filtered.length / PER_PAGE);
-  const paginate = filtered.slice((page - 1) * PER_PAGE, page / PER_PAGE);
+  const paginate = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
   return (
     <main
       id="gallery"
@@ -40,12 +40,12 @@ export default function Gallery({ TahunList, fotoMap }) {
           Koleksi Momen Lengkap Kelas
         </p>
       </div>
-      <div className="reveal flex gap-3 flex-wrap mb-10">
+      <div className=" flex gap-3 flex-wrap mb-10">
         {["Semua", ...TahunList].map((p) => (
           <button
             key={p}
             onClick={() => setSelected(p)}
-            className={`reveal-scale border-2 cursor-pointer border-black px-4 py-1 font-black uppercase text-sm transition-all 
+            className={` border-2 cursor-pointer border-black px-4 py-1 font-black uppercase text-sm transition-all 
             ${
               selected === p
                 ? "bg-black text-white shadow-[3px_3px_0px_#f317a6]"
@@ -61,12 +61,12 @@ export default function Gallery({ TahunList, fotoMap }) {
           Belum ada foto untuk tahun ini 📭
         </div>
       ) : (
-        <div className="reveal columns-2 md:columns-3 gap-4 space-y-4">
+        <div className="reveal-scale columns-2 md:columns-3 gap-4 space-y-4">
           {filtered.map((photo) => (
             <div
               key={photo.public_id}
               onClick={() => setPreview(photo)}
-              className="reveal-scale break-inside-avoid border-2 border-black bg-white shadow-[4px_4px_0px_black] cursor-pointer hover:shadow-[6px_6px_0px_black] hover:-translate-y-1 transition-all duration-200">
+              className=" break-inside-avoid border-2 border-black bg-white shadow-[4px_4px_0px_black] cursor-pointer hover:shadow-[6px_6px_0px_black] hover:-translate-y-1 transition-all duration-200">
               <img
                 src={photo.secure_url}
                 alt={photo.public_id}

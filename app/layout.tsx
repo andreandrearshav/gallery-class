@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gallery Kelas",
   description: "Gallery Kelas T.Informatika",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 export const inter = Inter({
   subsets: ["latin"],
